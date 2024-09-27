@@ -1,0 +1,11 @@
+package com.practice.main.services;
+
+import java.util.List;
+
+import com.practice.main.model.Job;
+
+public interface JobServices {
+
+	
+	
+}

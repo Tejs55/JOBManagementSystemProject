@@ -1,0 +1,10 @@
+package com.practice.main.dto;
+
+@Data
+public class ReviewDto {
+
+	private String title;
+	private String description;
+	private double rating;
+	
+}

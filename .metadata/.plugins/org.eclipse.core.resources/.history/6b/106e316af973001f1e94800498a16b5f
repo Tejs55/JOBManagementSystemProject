@@ -1,0 +1,56 @@
+package com.practice.main.serviceImpl;
+
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.practice.main.dto.JobDto;
+import com.practice.main.model.Job;
+import com.practice.main.repository.JobRepository;
+import com.practice.main.services.JobServices;
+
+@Service
+public class JobServiceImpl implements JobServices {
+
+	@Autowired
+	JobRepository jobRepository;
+	
+	@Autowired
+	ModelMapper modelMapper;
+
+	@Override
+	public JobDto saveJob(JobDto entity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<JobDto> readJobs() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JobDto readJobById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JobDto updateJob(Long id, JobDto entity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public JobDto deleteJosById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+	
+}
