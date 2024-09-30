@@ -44,9 +44,6 @@ public class JobServiceImpl implements JobServices {
 		return jobDtos;
 	}
 
-	
-	
-
 	@Override
 	public JobDto readJobById(Long id) {
 		Job job = jobRepository.findById(id).orElseThrow();
